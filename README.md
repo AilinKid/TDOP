@@ -2,7 +2,7 @@
 区别传统的递归下降的 parser 解析方法, TDOP 是一种基于使用了是基于运算符优先级的 token 解析方式. 这也是为什么 sqlparser-rust 没有使用 .yy 文件的基于生成器的 parse 解析方式.
 该 demo 实现有 python 版本,但是我觉得 C++ 方便理解和调试一点.
 
-详情请 Refer: [<<Top-Down operator precedence parsing>>](https://eli.thegreenplace.net/2010/01/02/top-down-operator-precedence-parsing)
+详情请 Refer: [Top-Down operator precedence parsing](https://eli.thegreenplace.net/2010/01/02/top-down-operator-precedence-parsing)
 原论文 [TDOP 地址](https://tdop.github.io/)
 
 ### TDOP 分析:
